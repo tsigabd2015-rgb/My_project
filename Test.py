@@ -9,6 +9,7 @@ data = {
 df = pd.DataFrame(data)
 
 print(df)
+
 plt.bar(df["Month"], df["Sales"])
 plt.xlabel("Month")
 plt.ylabel("Sales")
